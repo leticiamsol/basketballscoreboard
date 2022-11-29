@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #19244D;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 2px solid #a1a8c4;
+    background: transparent;
+    color: #a1a8c4;
+    font-size: 16px;
+}
+
+.score {
+    padding: 40px;
+    margin-bottom: 15px;
+    background: black;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
