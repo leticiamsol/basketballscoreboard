@@ -28,3 +28,19 @@ button {
     font-size: 40px;
     font-weight: bolder;
 }
+
+@media (max-width: 414px) {
+    .container {
+        display: block;
+    }
+
+    .score {
+        margin-left: 117px;
+        margin-right: 117px;
+    }
+
+    h3 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+}
